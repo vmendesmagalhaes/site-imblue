@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
+        'sans': ['Lato', 'sans-serif'],
         'nunito': ['Nunito', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
       },
