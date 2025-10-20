@@ -11,7 +11,7 @@ export const PortfolioSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
-              Our solutions portfolio
+              Our Solutions Portfolio
             </h2>
             <p className="text-xl font-montserrat font-medium text-muted-foreground">
               Specialized software for bulk cargo operations in chemical and agricultural sectors
@@ -30,7 +30,7 @@ export const PortfolioSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
               </div>
               <h3 className="text-2xl md:text-3xl font-nunito font-extrabold mb-3 text-foreground">
-                Port operations software
+                Port Operations Software
               </h3>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 Comprehensive solutions for managing bulk cargo operations in ports and terminals
@@ -88,7 +88,7 @@ export const PortfolioSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
               </div>
               <h3 className="text-2xl md:text-3xl font-nunito font-extrabold mb-3 text-foreground">
-                Product management software
+                Product Management Software
               </h3>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 End-to-end management for bulk chemical and agricultural products
