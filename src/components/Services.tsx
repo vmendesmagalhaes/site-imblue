@@ -27,10 +27,10 @@ export const Services = () => {
     <section id="services" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-nunito font-extrabold text-foreground mb-4">
             Our Services
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg font-montserrat font-medium text-muted-foreground max-w-2xl mx-auto">
             Comprehensive solutions designed to transform your port operations
           </p>
         </div>

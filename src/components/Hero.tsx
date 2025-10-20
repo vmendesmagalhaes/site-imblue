@@ -23,12 +23,12 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 text-center pt-20">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
+          <h1 className="text-5xl md:text-7xl font-nunito font-extrabold text-primary-foreground leading-tight">
             Tech on ports for a{" "}
             <span className="text-accent">blue future</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl font-montserrat font-medium text-primary-foreground/90 max-w-2xl mx-auto">
             Blue software solutions for sustainable port operations
           </p>
           

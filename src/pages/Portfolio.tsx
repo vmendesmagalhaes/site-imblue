@@ -9,13 +9,13 @@ const Portfolio = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-b from-muted to-background">
+      <section className="pt-32 pb-12 bg-gradient-to-b from-muted to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+            <h1 className="text-4xl md:text-5xl font-nunito font-extrabold mb-6 text-foreground">
               Our Solutions Portfolio
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl font-montserrat font-medium text-muted-foreground">
               Specialized software for bulk cargo operations in chemical and agricultural sectors
             </p>
           </div>
@@ -23,14 +23,14 @@ const Portfolio = () => {
       </section>
 
       {/* Port Operations Software */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+              <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
                 Port Operations Software
               </h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 Comprehensive solutions for managing bulk cargo operations in ports and terminals
               </p>
             </div>
@@ -133,14 +133,14 @@ const Portfolio = () => {
       </section>
 
       {/* Product Management Software */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-12 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+              <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
                 Product Management Software
               </h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 End-to-end management for bulk chemical and agricultural products
               </p>
             </div>
@@ -225,13 +225,13 @@ const Portfolio = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+            <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-6 text-foreground">
               Ready to Transform Your Operations?
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-xl font-montserrat font-medium text-muted-foreground mb-8">
               Let's discuss how our solutions can optimize your bulk cargo operations
             </p>
             <a

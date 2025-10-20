@@ -78,10 +78,10 @@ export const ContactForm = () => {
     <section id="contact" className="py-24 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-nunito font-extrabold text-foreground mb-4">
             Contact Us
           </h2>
-          <p className="text-lg text-primary font-semibold">
+          <p className="text-lg font-montserrat font-medium text-primary">
             We are ready to blue you!
           </p>
         </div>
