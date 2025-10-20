@@ -39,7 +39,7 @@ export const Hero = () => {
               onClick={() => scrollToSection("services")}
               className="group"
             >
-              View Services
+              View services
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -48,7 +48,7 @@ export const Hero = () => {
               onClick={() => scrollToSection("contact")}
               className="bg-transparent text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/10 hover:border-primary-foreground"
             >
-              Get in Touch
+              Get in touch
             </Button>
           </div>
         </div>

@@ -79,7 +79,7 @@ export const ContactForm = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-nunito font-extrabold text-foreground mb-4">
-            Contact Us
+            Contact us
           </h2>
           <p className="text-lg font-montserrat font-medium text-primary">
             We are ready to blue you!
@@ -190,7 +190,7 @@ export const ContactForm = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">
-                Contact Information
+                Contact information
               </h3>
               
               <div className="space-y-6">
@@ -223,7 +223,7 @@ export const ContactForm = () => {
 
             {/* Additional Info Card */}
             <div className="bg-gradient-ocean text-primary-foreground rounded-2xl p-8 shadow-elegant">
-              <h4 className="text-xl font-bold mb-4">Ready to Transform Your Port Operations?</h4>
+              <h4 className="text-xl font-bold mb-4">Ready to transform your port operations?</h4>
               <p className="leading-relaxed">
                 Let's discuss how our blue technology solutions can optimize your maritime logistics 
                 and contribute to a more sustainable future.

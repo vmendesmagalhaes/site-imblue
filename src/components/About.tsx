@@ -8,7 +8,7 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-nunito font-extrabold text-foreground mb-4">
-            Blue Softwares
+            Blue softwares
           </h2>
           <p className="text-xl font-montserrat font-medium text-primary">Tech on port operations</p>
         </div>
@@ -45,7 +45,7 @@ export const About = () => {
                   <Waves className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Sustainable Solutions</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Sustainable solutions</h3>
                   <p className="text-muted-foreground">
                     Committed to the blue economy and environmental preservation
                   </p>
@@ -57,7 +57,7 @@ export const About = () => {
                   <Target className="h-6 w-6 text-secondary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Precision Technology</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Precision technology</h3>
                   <p className="text-muted-foreground">
                     Cutting-edge software tailored for port operations
                   </p>
@@ -69,7 +69,7 @@ export const About = () => {
                   <Users className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Expert Team</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Expert team</h3>
                   <p className="text-muted-foreground">
                     Deep maritime industry knowledge meets innovation
                   </p>
@@ -83,7 +83,7 @@ export const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-3xl md:text-4xl font-nunito font-extrabold text-foreground mb-4">
-              Our Presence Across Brazil
+              Our presence across Brazil
             </h3>
             <p className="text-lg font-montserrat font-medium text-muted-foreground">
               Serving major ports throughout the Brazilian coast

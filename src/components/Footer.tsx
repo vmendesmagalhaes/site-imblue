@@ -10,9 +10,9 @@ export const Footer = () => {
             <span className="font-semibold text-lg">imblue</span>
           </div>
           
-          <p className="text-primary-foreground/80 text-sm text-center">
-            © {new Date().getFullYear()} imblue. All rights reserved. Tech on Ports.
-          </p>
+            <p className="text-primary-foreground/80 text-sm text-center">
+              © {new Date().getFullYear()} imblue. All rights reserved. Tech on ports.
+            </p>
           
           <div className="text-sm text-primary-foreground/80">
             Rio Grande, RS, Brazil
