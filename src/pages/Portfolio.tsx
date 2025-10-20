@@ -2,6 +2,8 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Package, Ship, Smartphone, MessageSquare, Calendar, Truck, Warehouse, RefreshCw } from "lucide-react";
+import portOperations from "@/assets/port-operations.jpg";
+import soyTrucks from "@/assets/soy-trucks.jpg";
 
 const Portfolio = () => {
   return (
@@ -27,6 +29,11 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
+              <img 
+                src={portOperations} 
+                alt="Port operations at Porto de Rio Grande" 
+                className="w-full h-80 md:h-[500px] object-cover rounded-lg shadow-lg mb-8"
+              />
               <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
                 Port Operations Software
               </h2>
@@ -137,6 +144,11 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
+              <img 
+                src={soyTrucks} 
+                alt="Trucks unloading soybeans at agricultural facility" 
+                className="w-full h-80 md:h-[500px] object-cover rounded-lg shadow-lg mb-8"
+              />
               <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
                 Product Management Software
               </h2>
