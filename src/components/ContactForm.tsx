@@ -16,7 +16,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { Mail, MapPin, Loader2 } from "lucide-react";
+import { Mail, MapPin, Loader2, Instagram, Linkedin } from "lucide-react";
 
 const contactFormSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
@@ -216,6 +216,40 @@ export const ContactForm = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Location</p>
                     <p className="text-muted-foreground">Rio Grande, RS, Brazil</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-accent/10 p-3 rounded-lg">
+                    <Instagram className="h-6 w-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">Instagram</p>
+                    <a
+                      href="https://www.instagram.com/imbluetech"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      @imbluetech
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
+                    <Linkedin className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">LinkedIn</p>
+                    <a
+                      href="https://www.linkedin.com/company/4994764"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      imblue
+                    </a>
                   </div>
                 </div>
               </div>
