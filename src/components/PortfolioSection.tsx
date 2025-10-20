@@ -11,7 +11,7 @@ export const PortfolioSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
-              Our Solutions Portfolio
+              Our solutions portfolio
             </h2>
             <p className="text-xl font-montserrat font-medium text-muted-foreground">
               Specialized software for bulk cargo operations in chemical and agricultural sectors
@@ -21,13 +21,16 @@ export const PortfolioSection = () => {
           {/* Port Operations Software */}
           <div className="mb-16">
             <div className="mb-8">
-              <img 
-                src={portOperations} 
-                alt="Port operations at Porto de Rio Grande" 
-                className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-6"
-              />
+              <div className="relative w-full h-64 md:h-96 rounded-lg shadow-lg mb-6 overflow-hidden">
+                <img 
+                  src={portOperations} 
+                  alt="Port operations at Porto de Rio Grande" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
+              </div>
               <h3 className="text-2xl md:text-3xl font-nunito font-extrabold mb-3 text-foreground">
-                Port Operations Software
+                Port operations software
               </h3>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 Comprehensive solutions for managing bulk cargo operations in ports and terminals
@@ -40,7 +43,7 @@ export const PortfolioSection = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Package className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>Commercial Tools</CardTitle>
+                  <CardTitle>Commercial tools</CardTitle>
                   <CardDescription>
                     Complete commercial management for port operations
                   </CardDescription>
@@ -58,7 +61,7 @@ export const PortfolioSection = () => {
                   <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                     <Ship className="w-6 h-6 text-secondary" />
                   </div>
-                  <CardTitle>Ship Lineup Management</CardTitle>
+                  <CardTitle>Ship lineup management</CardTitle>
                   <CardDescription>
                     Real-time vessel scheduling and berthing optimization
                   </CardDescription>
@@ -76,13 +79,16 @@ export const PortfolioSection = () => {
           {/* Product Management Software */}
           <div className="mb-12">
             <div className="mb-8">
-              <img 
-                src={soyTrucks} 
-                alt="Trucks unloading soybeans at agricultural facility" 
-                className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-6"
-              />
+              <div className="relative w-full h-64 md:h-96 rounded-lg shadow-lg mb-6 overflow-hidden">
+                <img 
+                  src={soyTrucks} 
+                  alt="Trucks unloading soybeans at agricultural facility" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
+              </div>
               <h3 className="text-2xl md:text-3xl font-nunito font-extrabold mb-3 text-foreground">
-                Product Management Software
+                Product management software
               </h3>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 End-to-end management for bulk chemical and agricultural products
@@ -95,7 +101,7 @@ export const PortfolioSection = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Warehouse className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>Storage Management</CardTitle>
+                  <CardTitle>Storage management</CardTitle>
                   <CardDescription>
                     Complete warehouse and tank farm control
                   </CardDescription>
@@ -113,7 +119,7 @@ export const PortfolioSection = () => {
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                     <Truck className="w-6 h-6 text-accent" />
                   </div>
-                  <CardTitle>Receiving & Shipping</CardTitle>
+                  <CardTitle>Receiving & shipping</CardTitle>
                   <CardDescription>
                     Track all inbound and outbound operations
                   </CardDescription>
@@ -136,7 +142,7 @@ export const PortfolioSection = () => {
                 window.location.href = "/portfolio";
               }}
             >
-              View Full Portfolio
+              View full portfolio
             </Button>
           </div>
         </div>

@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-nunito font-extrabold mb-6 text-foreground">
-              Our Solutions Portfolio
+              Our solutions portfolio
             </h1>
             <p className="text-xl font-montserrat font-medium text-muted-foreground">
               Specialized software for bulk cargo operations in chemical and agricultural sectors
@@ -29,13 +29,16 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
-              <img 
-                src={portOperations} 
-                alt="Port operations at Porto de Rio Grande" 
-                className="w-full h-80 md:h-[500px] object-cover rounded-lg shadow-lg mb-8"
-              />
+              <div className="relative w-full h-80 md:h-[500px] rounded-lg shadow-lg mb-8 overflow-hidden">
+                <img 
+                  src={portOperations} 
+                  alt="Port operations at Porto de Rio Grande" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
+              </div>
               <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
-                Port Operations Software
+                Port operations software
               </h2>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 Comprehensive solutions for managing bulk cargo operations in ports and terminals
@@ -48,7 +51,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Package className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>Commercial Tools</CardTitle>
+                  <CardTitle>Commercial tools</CardTitle>
                   <CardDescription>
                     Complete commercial management for port operations
                   </CardDescription>
@@ -66,7 +69,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                     <Ship className="w-6 h-6 text-secondary" />
                   </div>
-                  <CardTitle>Ship Lineup Management</CardTitle>
+                  <CardTitle>Ship lineup management</CardTitle>
                   <CardDescription>
                     Real-time vessel scheduling and berthing optimization
                   </CardDescription>
@@ -84,7 +87,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                     <RefreshCw className="w-6 h-6 text-accent" />
                   </div>
-                  <CardTitle>Operation Control</CardTitle>
+                  <CardTitle>Operation control</CardTitle>
                   <CardDescription>
                     Monitor and control all port operations in real-time
                   </CardDescription>
@@ -102,7 +105,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <MessageSquare className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>WhatsApp Integration</CardTitle>
+                  <CardTitle>WhatsApp integration</CardTitle>
                   <CardDescription>
                     Instant communication and notifications
                   </CardDescription>
@@ -120,7 +123,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                     <Smartphone className="w-6 h-6 text-secondary" />
                   </div>
-                  <CardTitle>Real-Time Mobile Application</CardTitle>
+                  <CardTitle>Real-time mobile application</CardTitle>
                   <CardDescription>
                     Access operations anywhere, anytime
                   </CardDescription>
@@ -144,13 +147,16 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 animate-fade-in">
-              <img 
-                src={soyTrucks} 
-                alt="Trucks unloading soybeans at agricultural facility" 
-                className="w-full h-80 md:h-[500px] object-cover rounded-lg shadow-lg mb-8"
-              />
+              <div className="relative w-full h-80 md:h-[500px] rounded-lg shadow-lg mb-8 overflow-hidden">
+                <img 
+                  src={soyTrucks} 
+                  alt="Trucks unloading soybeans at agricultural facility" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/70" />
+              </div>
               <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-4 text-foreground">
-                Product Management Software
+                Product management software
               </h2>
               <p className="text-lg font-montserrat font-medium text-muted-foreground">
                 End-to-end management for bulk chemical and agricultural products
@@ -163,7 +169,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Warehouse className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>Storage Management</CardTitle>
+                  <CardTitle>Storage management</CardTitle>
                   <CardDescription>
                     Complete warehouse and tank farm control
                   </CardDescription>
@@ -182,7 +188,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                     <Calendar className="w-6 h-6 text-secondary" />
                   </div>
-                  <CardTitle>Scheduling System</CardTitle>
+                  <CardTitle>Scheduling system</CardTitle>
                   <CardDescription>
                     Automated appointment and slot management
                   </CardDescription>
@@ -200,7 +206,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                     <Truck className="w-6 h-6 text-accent" />
                   </div>
-                  <CardTitle>Receiving & Shipping</CardTitle>
+                  <CardTitle>Receiving & shipping</CardTitle>
                   <CardDescription>
                     Track all inbound and outbound operations
                   </CardDescription>
@@ -218,7 +224,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <RefreshCw className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle>Transfers & Cargo Movements</CardTitle>
+                  <CardTitle>Transfers & cargo movements</CardTitle>
                   <CardDescription>
                     Internal movement and repositioning control
                   </CardDescription>
@@ -241,7 +247,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-nunito font-extrabold mb-6 text-foreground">
-              Ready to Transform Your Operations?
+              Ready to transform your operations?
             </h2>
             <p className="text-xl font-montserrat font-medium text-muted-foreground mb-8">
               Let's discuss how our solutions can optimize your bulk cargo operations
@@ -254,7 +260,7 @@ const Portfolio = () => {
               }}
               className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
             >
-              Get in Touch
+              Get in touch
             </a>
           </div>
         </div>
