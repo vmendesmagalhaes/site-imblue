@@ -13,11 +13,11 @@ export const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="imblue" className="h-8 w-auto" />
+            <img src={logo} alt="imblue" className="h-16 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
@@ -40,6 +40,12 @@ export const Navigation = () => {
             >
               Services
             </button>
+            <a
+              href="/portfolio"
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              Portfolio
+            </a>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors font-medium"
@@ -83,6 +89,12 @@ export const Navigation = () => {
             >
               Services
             </button>
+            <a
+              href="/portfolio"
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
+            >
+              Portfolio
+            </a>
             <button
               onClick={() => scrollToSection("contact")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
