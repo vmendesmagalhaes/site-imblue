@@ -40,12 +40,12 @@ export const Navigation = () => {
             >
               Services
             </button>
-            <a
-              href="/portfolio"
+            <button
+              onClick={() => scrollToSection("portfolio")}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Portfolio
-            </a>
+            </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors font-medium"
@@ -89,12 +89,12 @@ export const Navigation = () => {
             >
               Services
             </button>
-            <a
-              href="/portfolio"
+            <button
+              onClick={() => scrollToSection("portfolio")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
             >
               Portfolio
-            </a>
+            </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-medium"

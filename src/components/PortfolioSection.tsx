@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Package, Ship, Warehouse, Truck } from "lucide-react";
 import portOperations from "@/assets/port-operations.jpg";
@@ -132,18 +131,6 @@ export const PortfolioSection = () => {
                 </CardContent>
               </Card>
             </div>
-          </div>
-
-          {/* CTA */}
-          <div className="text-center animate-fade-in">
-            <Button 
-              size="lg"
-              onClick={() => {
-                window.location.href = "/portfolio";
-              }}
-            >
-              View full portfolio
-            </Button>
           </div>
         </div>
       </div>
